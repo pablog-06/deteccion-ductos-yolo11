@@ -1,0 +1,25 @@
+# Publicar solo la versión básica. Lo demás permanece disponible localmente.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/requirements.txt
+!/predecir.py
+!/ver_etiquetas.py
+!/comparar.py
+!/entrenar.py
+
+# Únicamente la exportación original de 978 imágenes y sus etiquetas.
+!/datos/
+/datos/*
+!/datos/sewer-defects/
+*.cache
+__pycache__/
+*.py[cod]
+.env
+.env.*
+
+# Un único checkpoint entrenado. Los demás pesos siguen en la PC.
+!/pesos/
+/pesos/*
+!/pesos/prueba_02.pt

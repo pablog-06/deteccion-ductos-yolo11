@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Buckling', 'Crack', 'Debris', 'Hole', 'Joint offset', 'Obstacle', 'Utility intrusion']
+
+roboflow:
+  workspace: pablos-workspace-fenc0
+  project: sewer-defects-u8zwz-kzqjd
+  version: 4
+  license: CC BY 4.0
+  url: https://app.roboflow.com/pablos-workspace-fenc0/sewer-defects-u8zwz-kzqjd/4
